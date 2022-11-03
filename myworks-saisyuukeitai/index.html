@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1"> 
+ <title>我技術者目標為</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+<body id="po">
+ <div content>
+  <header id="header">
+   <h1>ポートフォリオサイト</h1>
+   <nav id="menu">
+    <h2>MENU</h2>
+    <div class="pien">
+     <a href="index.html#ABOUT"><p>ABOUT</p></a>
+     <a href="index.html#NEWS"><p>NEWS</p></a>
+     <a href="index.html#WORKS"><p>WORKS</p></a>
+     <a href="index.html#CONTACT"><p>CONTACT</p></a>
+    </div>
+   </nav>
+
+  </header>
+  <main>
+   <h2>以下私の自己紹介になります。</h2>
+   <section id="ABOUT">
+    <h3>About</h3>
+    <div class="nishida">
+     <p>私はプログラマを目指しています。</p>
+     <p>目標はバックエンドでWeb開発の会社に</p>
+     <p>就職し、えらくなることです。</p>
+     <p class="mahou">これはスマホまたは極狭windowの方のみ見える魔法の文字です</p>
+     <img src="img\ti.png" alt="warenishidanari">
+    </div>
+   
+   </section>
+   <section id="NEWS">
+    <h2>最近の私の学習状況をお届けします</h2>
+    <p>最近はオンラインプログラミングスクールにて</p>
+    <p>フロントエンドの勉強をしていましたが、</p>
+    <p>今後はバックエンドを極めて行きたいです。</p>
+   </section>
+   <section id="WORKS">
+    <h3>過去に作成した作品はこちら</h3>
+    <ul>
+     <li><a href="kako1.html"><p>過去作品（１）</p></a></li>
+     <li><a href="kako2.html"><p>過去作品（２）</p></a></li>
+     <li><a href="kako3.html"><p>過去作品（３）</p></a></li>
+    </ul>
+    
+   </section>
+   <section id="CONTACT">
+    <h2>お問い合わせはこちら</h2>
+    <form action="" method="POST">
+     <div>
+      <label for="name">氏名:</label>
+      <input id="name" type="text" name="name" placeholder="本名を入力してね♡" required>
+     </div>
+     <div>
+      <label for="mail">メールアドレス:</label>
+      <input id="mail" type="email" name="email" placeholder="aaa@aaa.aaa" required>
+     </div>
+     <div>
+      <label for="tel">電話番号(任意):</label>
+      <input id="tel" type="tel" name="tel" placeholder="090????????">
+     </div>
+     <div>
+      <label for="comment">お問い合わせ内容:</label><br>
+      <textarea id="comment" cols="30" rows="10" placeholder="お問い合わせ内容を入力してください（必須)" required></textarea>
+
+     </div>
+     <div>
+      <input type="submit" value="送信">
+     </div>
+    </form>
+   </section>
+  </main>
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/jett.png" alt="mainvisual">  jett</div>
+      <div class="swiper-slide"><img src="img/phenix.png" alt="mainvisual2"> phenix</div>
+      <div class="swiper-slide"><img src="img/omen.png" alt="mainvisual3"> omen</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <footer id="footer">
+   <h3>@godofnisyd4</h3>
+  </footer>
+ </div>
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <script src="js/main.js"></script>
+</body>
+</html>

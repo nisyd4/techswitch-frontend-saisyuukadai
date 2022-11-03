@@ -1,0 +1,27 @@
+#po {
+ text-align: center;
+}
+
+ul {
+ list-style-type: none;
+}
+
+.pien {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.mahou {
+ display: none;
+}
+@media screen and (max-width : 600px){
+ .mahou {
+  display: block;
+ }
+}
+
+.nishida {
+
+ justify-content: space-around;
+}
